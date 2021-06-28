@@ -1,0 +1,43 @@
+html,
+body,
+#wrapper {
+    height: 100%;
+}
+
+#wrapper {
+    background-image: url('../images/weather.jpg');
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Vazir', sans-serif;
+    overflow-y: auto;
+}
+
+.show-weather .card{
+    width: 18rem !important;
+}
+
+.show-weather .card .icon i {
+    font-size: 65px;
+}
+
+.show-weather .card h3 {
+    font-weight: 600;
+}
+
+.show-weather .card .temp {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.title {
+    background-color: #0D9DE3;
+}
+
+label { 
+    font-size: 14px;
+}
+
+#message{
+    font-size: 14px;
+    font-weight: bold;
+}
