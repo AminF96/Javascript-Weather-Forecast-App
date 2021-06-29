@@ -4,4 +4,4 @@ The information received includes the minimum temperature, maximum temperature a
 
 Front End Technologies : Javascript , Bootstrap .
 
-https://openweathermap.org/api 's "5 Day / 3 Hour Forecast" plan is also used in this program for weather forecast information .
+https://openweathermap.org/api 's "5 Day / 3 Hour Forecast" plan is also used in this Application for weather forecast information .
