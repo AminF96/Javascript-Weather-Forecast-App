@@ -1,4 +1,12 @@
 'use strict';
+// import styles
+import '../css/bootstrap-rtl.css';
+import '../css/custom.css';
+
+// import js files
+import UI from "./ui";
+import ForcastWeather from "./forcastWeather";
+
 // constants & variables
 const form = document.querySelector('#form');
 const cityInput = document.querySelector('#city');

@@ -1,5 +1,5 @@
 // everything related to forcast weather app
-class ForcastWeather {
+export default class ForcastWeather {
     // create url 
     _createURL(city, hours) {
         const steps = (hours / 3) + 8;

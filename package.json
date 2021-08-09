@@ -1,0 +1,41 @@
+{
+  "name": "javascript-weather-forcast-app",
+  "version": "1.0.0",
+  "description": "This Javascript Application allows user to enter the name of a city and select the next one to four days, to receive the weather forecast of that city on the selected day",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development webpack --mode development",
+    "prod": "NODE_ENV=production webpack --mode production",
+    "serve": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AminF96/Javascript-Weather-Forecast-App.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Amin.F96",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AminF96/Javascript-Weather-Forecast-App/issues"
+  },
+  "homepage": "https://github.com/AminF96/Javascript-Weather-Forecast-App#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.2.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.49.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.14.8"
+  }
+}
